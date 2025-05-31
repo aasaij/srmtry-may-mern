@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>My Calculator</h1>
+      </div>
+      <div>
+        <input type="text" id="result" readonly value="0" />
+      </div>
+      <div class="button-container">
+        <button onclick="memoryCancel()">MC</button>
+        <button onclick="memoryRestore()">MR</button>
+        <button onclick="memoryAdd()">M+</button>
+        <button onclick="memoryMinus()">M-</button>
+        <button onclick="memorySave()">MS</button>
+        <button onclick="backSpace()">Backspace</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('%')">%</button>
+        <button onclick="clear()">CE</button>
+        <button onclick="clear()">C</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')">X</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('-')">-</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('+')">+</button>
+        <button onclick="changeSign()">+/-</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="calcualte()">=</button>
+      </div>
+    </div>
+  </body>
+</html>

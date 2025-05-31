@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(218, 219, 221);
+  color: rgb(80, 4, 4);
+}
+
+h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+header,
+footer {
+  max-height: 10vh;
+  background-color: rgb(83, 81, 81);
+  text-align: center;
+  color: white;
+}
+main {
+  min-height: 75vh;
+}
